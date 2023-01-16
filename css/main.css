@@ -33,4 +33,37 @@ header .header-icons-container .icons{
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+    cursor: pointer;
+}
+header .header-icons-container .icons img{
+width: 40px;
+}
+header .header-icons-container .icons img:hover{
+    transform: scale(1.05);
+}
+nav{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    align-items: center;
+}
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+nav .nav-logo-container img{
+    width: 220px;
+    height: 90px;
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 24px;
 }
